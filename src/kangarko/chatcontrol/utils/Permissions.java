@@ -3,8 +3,8 @@ package kangarko.chatcontrol.utils;
 /**
  * This class holds all permissions used by plugin.
  *
- * If you are not familiar with Java and want to use these permissions,
- * just add a player permission from the brackets which looks like:
+ * If you are not familiar with Java and want to use these permissions, just add
+ * a player permission from the brackets which looks like:
  *
  * public static final String MUTE = "chatcontrol.commands.mute";
  *
@@ -22,16 +22,19 @@ public class Permissions {
 		// Muting without broadcasting any message with "/chc mute -silent" command.
 		public static final String MUTE_SILENT = "chatcontrol.commands.mute.silent";
 
-		// Muting without broadcasting player who muted the chat with "/chc mute -anonymous" command.
+		// Muting without broadcasting player who muted the chat with "/chc mute
+		// -anonymous" command.
 		public static final String MUTE_ANONYMOUS = "chatcontrol.commands.mute.anonymous";
 
 		// Clearing game chat with "/chc clear" command.
 		public static final String CLEAR = "chatcontrol.commands.clear";
 
-		// Chat clear without broadcasting any message with "/chc clear -silent" command.
+		// Chat clear without broadcasting any message with "/chc clear -silent"
+		// command.
 		public static final String CLEAR_SILENT = "chatcontrol.commands.clear.silent";
 
-		// Chat clear without broadcasting player who cleared the chat with "/chc clear -anonymous" command.
+		// Chat clear without broadcasting player who cleared the chat with "/chc clear
+		// -anonymous" command.
 		public static final String CLEAR_ANONYMOUS = "chatcontrol.commands.clear.anonymous";
 
 		// Clearing the console with "/chc clear -console" command.
@@ -63,7 +66,8 @@ public class Permissions {
 		// Allow a player to send duplicate/similar messages.
 		public static final String SIMILAR_CHAT = "chatcontrol.bypass.dupe.chat";
 
-		// Allow player to chat even when they did not moved since joining the server. Not recommended due to spam bots.
+		// Allow player to chat even when they did not moved since joining the server.
+		// Not recommended due to spam bots.
 		public static final String MOVE = "chatcontrol.bypass.move";
 
 		// Bypass check for CAPS.
@@ -72,7 +76,8 @@ public class Permissions {
 		// Bypass rejoin check. Not recommended due to spam bots.
 		public static final String REJOIN = "chatcontrol.bypass.rejoin";
 
-		// Allow player to tab complete. (Notice: If you are using Spigot it is highly recommended to disable this feature and use the inbuilt one in spigot.yml)
+		// Allow player to tab complete. (Notice: If you are using Spigot it is highly
+		// recommended to disable this feature and use the inbuilt one in spigot.yml)
 		public static final String TAB_COMPLETE = "chatcontrol.bypass.tabcomplete";
 
 		// Player's chat don't clears, they receive just one message instead.
@@ -85,7 +90,8 @@ public class Permissions {
 		public static final String CAPITALIZE = "chatcontrol.bypass.capitalize";
 
 		// No dot will not be inserted after player's messages.
-		public static final String PUNCTUATE = "chatcontrol.bypass.punctuate"; // TODO NB: Permission changed in v5.0.0 from insertdot to punctuate.
+		public static final String PUNCTUATE = "chatcontrol.bypass.punctuate"; // TODO NB: Permission changed in v5.0.0 from insertdot to
+																				// punctuate.
 
 		// Allow player to make multiple signs with same text.
 		public static final String SIGN_DUPLICATION = "chatcontrol.bypass.signduplication";
@@ -93,7 +99,8 @@ public class Permissions {
 		// Allow player to bypass custom rules and handlers.
 		public static final String RULES = "chatcontrol.bypass.rules";
 
-		// Allow player to bypass vanilla's "disconnect.spam" kick when sending messages too quickly.
+		// Allow player to bypass vanilla's "disconnect.spam" kick when sending messages
+		// too quickly.
 		public static final String SPAM_KICK = "chatcontrol.bypass.spamkick";
 	}
 
@@ -104,7 +111,8 @@ public class Permissions {
 		// Receive a warning when a new version of plugin is available.
 		public static final String UPDATE_AVAILABLE = "chatcontrol.notify.update";
 
-		// Receive a sound warning when somebody mentions you in the chat. (Highly configurable.)
+		// Receive a sound warning when somebody mentions you in the chat. (Highly
+		// configurable.)
 		public static final String WHEN_MENTIONED = "chatcontrol.notify.whenmentioned";
 	}
 
@@ -127,13 +135,15 @@ public class Permissions {
 		// Permission to use '&o' character make the messages italics.
 		public static final String ITALIC = "chatcontrol.chat.format.italic";
 
-		// Permission to speak in global chat when chat range is enabled and message starts with '!'.
+		// Permission to speak in global chat when chat range is enabled and message
+		// starts with '!'.
 		public static final String GLOBAL_CHAT = "chatcontrol.chat.global";
 
 		// Permission to receive everyone's messages when ranged mode is enabled.
 		public static final String SPY = "chatcontrol.chat.spy";
 
-		// Permission speak for all players in the entire world when ranged mode is enabled.
+		// Permission speak for all players in the entire world when ranged mode is
+		// enabled.
 		public static final String OVERRIDE_RANGED_WORLD = "chatcontrol.chat.overrideranged";
 	}
 
